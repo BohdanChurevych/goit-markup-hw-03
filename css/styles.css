@@ -81,7 +81,7 @@ p {
 /* header */
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-header {
@@ -347,8 +347,8 @@ p {
   text-decoration: none;
 }
 
-.address-list .item {
-  margin-bottom: 9px;
+.address-list .item + .item {
+  margin-top: 9px;
 }
 
 .address-list .map {
